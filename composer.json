@@ -1,0 +1,27 @@
+{
+    "name": "creitive/laravel5-breadcrumbs",
+    "description": "Breadcrumbs integration for Laravel 5",
+    "keywords":[
+        "laravel",
+        "breadcrumbs"
+    ],
+    "homepage":"https://github.com/creitive/laravel5-breadcrumbs",
+    "authors": [
+        {
+            "name": "Miloš Levačić",
+            "email": "milos.levacic@creitive.rs"
+        }
+    ],
+    "license": "MIT License",
+    "require": {
+        "php": ">=5.4.0",
+        "creitive/breadcrumbs": "~2.0",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Creitive\\Breadcrumbs\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
