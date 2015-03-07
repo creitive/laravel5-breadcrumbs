@@ -15,7 +15,7 @@ Just run this on the command line:
 composer require creitive/laravel5-breadcrumbs
 ```
 
-After this, you should add the service provider and the alias to your `app/config/app.php`, which should make it look something like this:
+After this, you should add the service provider and the alias to your `config/app.php`, which should make it look something like this:
 
 ```php
 return array(
