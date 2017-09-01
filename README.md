@@ -15,7 +15,9 @@ Just run this on the command line:
 composer require creitive/laravel5-breadcrumbs
 ```
 
-After this, you should add the service provider and the alias to your `config/app.php`, which should make it look something like this:
+Laravel 5.5+ will use auto-discovery function.
+
+If using Laravel 5.4 (or don't use auto-discovery) you will need to include the service providers / facade in `config/app.php`.
 
 ```php
 return array(
@@ -24,7 +26,7 @@ return array(
 	'providers' => array(
 		// ...
 
-		'Creitive\Breadcrumbs\BreadcrumbsServiceProvider',
+		Creitive\Breadcrumbs\BreadcrumbsServiceProvider::class,
 	),
 
 	// ...
@@ -32,7 +34,7 @@ return array(
 	'aliases' => array(
 		// ...
 
-		'Breadcrumbs' => 'Creitive\Breadcrumbs\Facades\Breadcrumbs',
+		'Breadcrumbs' => Creitive\Breadcrumbs\Facades\Breadcrumbs::class,
 	),
 );
 ```
