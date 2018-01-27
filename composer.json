@@ -23,5 +23,15 @@
             "Creitive\\Breadcrumbs\\": "src"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Creitive\\Breadcrumbs\\BreadcrumbsServiceProvider"
+            ],
+            "aliases": {
+                "Breadcrumbs": "Creitive\\Breadcrumbs\\Facades\\Breadcrumbs"
+            }
+        }
+    },
     "minimum-stability": "dev"
 }
