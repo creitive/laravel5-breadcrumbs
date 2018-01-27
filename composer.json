@@ -12,7 +12,7 @@
             "email": "milos.levacic@creitive.com"
         }
     ],
-    "license": "MIT License",
+    "license": "MIT",
     "require": {
         "php": ">=5.4.0",
         "creitive/breadcrumbs": "^3.0",
