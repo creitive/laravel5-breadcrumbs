@@ -58,6 +58,12 @@ Laravel 4
 For Laravel 4 support, visit the [creitive/laravel4-breadcrumbs](https://github.com/creitive/laravel4-breadcrumbs) package.
 
 
+Laravel 6
+---------
+
+For Laravel 6 support, visit the [creitive/laravel6-breadcrumbs](https://github.com/creitive/laravel6-breadcrumbs) package.
+
+
 License
 -------
 
