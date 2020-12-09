@@ -64,6 +64,12 @@ Laravel 6
 For Laravel 6 support, visit the [creitive/laravel6-breadcrumbs](https://github.com/creitive/laravel6-breadcrumbs) package.
 
 
+Laravel 7+
+---------
+
+For Laravel 7+ support, visit the [creitive/laravel-breadcrumbs](https://github.com/creitive/laravel-breadcrumbs) package.
+
+
 License
 -------
 
